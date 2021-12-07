@@ -1,0 +1,29 @@
+
+a:hover {
+    
+    background-color:black;
+    
+}
+
+a:active {
+
+    background-color: yellow;
+}    
+
+a {
+
+    margin-right: 19px;
+    font-size: 25px;
+    text-decoration: none;
+    color:white;
+    
+   
+}
+.nav-bar{
+
+    background-color:gray;
+    color:white;
+    margin-top: none;
+
+    
+}

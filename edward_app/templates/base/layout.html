@@ -1,0 +1,34 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% block title %}Project in Python{% endblock %}</title>
+    {% block stylesheet %}
+    <link rel="stylesheet" href="{% static 'css/Layout/layout.css' %} "type='text/css'>
+    
+    {% endblock %}
+</head>
+<body>
+    
+   <nav class='nav-bar'> 
+    <a href='/Home'> Manga & Anime Favorites</a> 
+    <a href='/naruto'>Naruto</a> 
+    <a href='/DemonSlayer'>Demon Slayer</a> 
+    <a href='/OnePiece'>One Piece</a> 
+    <a href='/Pokémon'>Pokémon</a> 
+    
+   </nav>  
+        {% block content %} 
+        {% endblock %}
+
+    
+
+    {% block javascript %}
+
+    <script src="{% static 'js/Layout/layout.js' %}"></script>
+    {% endblock %}
+
+</body>
+
+  
+</html>

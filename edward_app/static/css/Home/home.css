@@ -1,0 +1,27 @@
+h1{
+    color:black;
+    text-align: left;
+    font-size: 45px;
+    margin-bottom: 0px;
+    
+}
+h4{
+    color:black;
+    text-align: left;
+    font-size: 12px; 
+    margin-bottom: 75px;   
+   
+}
+p{
+
+    color:greenyellow;
+    text-align: left;
+    text-transform: calc();
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.home-background{
+    background: url('https://www.teahub.io/photos/full/301-3013165_beautiful-anime-scenery-aesthetic-wallpaper-4k.jpg')
+    no-repeat center center fixed;
+    background-size: cover;
+}

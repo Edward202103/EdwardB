@@ -1,0 +1,32 @@
+{% extends "base/layout.html" %}
+{% load static %}
+
+<head>
+    <title>{% block title %}Home{% endblock %}</title>
+    {% block stylesheet %}
+    <link rel="stylesheet" href="{% static 'css/Home/home.css' %} "type='text/css'>
+    {{ block.super }}
+    {% endblock %}
+</head>
+{% block content %} 
+<body class="home-background">
+    <div >
+        <h1> BEST MANGA YOU MUST READ RIGHT NOW !</h1>
+        <h4> Edward Bancod  | December 04, 2021 </h4>
+    
+        <p>
+            I’ve read manga for over half my life. I’ve seen the North American manga industry boom, collapse, rebuild, and stabilize.
+            Today, we’ve reached an equilibrium in the English-language market. The biggest titles are translated simultaneously with the Japanese release and publishers are taking risks, licensing lesser known titles and classic backlist series. As a result, some of the best manga series are now available for us to read.
+
+            In assembling this list, I cast a wide net. It looks across many genres and age categories as well as what many consider to be the best manga this year and what were the most famous series in the 1970s. I firmly believe that there’s a manga for every reader. Hopefully, one of the following titles piques your interest.
+        
+        </p>
+    </div>
+</body>   
+{% endblock %}
+{% block javascript %}
+    {{ block.super }}
+
+    <script src="{% static 'js/home/home.js' %}"></script>
+    
+{% endblock %}

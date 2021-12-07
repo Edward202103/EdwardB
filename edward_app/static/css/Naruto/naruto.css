@@ -1,0 +1,19 @@
+h1{
+    color:black;
+    text-align: left;
+    font-size: 50px;
+    
+}
+div{
+
+    color:black;
+    text-align: left;
+    text-transform: calc();
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.naruto-background{
+    background: url('https://www.whatspaper.com/wp-content/uploads/2021/03/desktop-naruto-wallpaper-whatspaper-1.jpg')
+    no-repeat center center fixed;
+    background-size: cover;
+}

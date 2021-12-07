@@ -1,0 +1,18 @@
+h1{
+    color:black;
+    text-align: left;
+    font-size: 50px;
+    
+}
+div{
+
+    color:black;
+    text-align: left;
+    text-transform: calc();
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.demon-background{
+    background: url('https://i.pinimg.com/originals/38/a4/a6/38a4a64438e4e32400ed04bfb477dc02.png')
+    no-repeat center center fixed;
+    background-size: cover;
+}

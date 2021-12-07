@@ -1,0 +1,19 @@
+h1{
+    color:black;
+    text-align: left;
+    font-size: 50px;
+    
+}
+div{
+
+    color:black;
+    text-align: left;
+    text-transform: calc();
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hero-background{
+    background: url('https://i.pinimg.com/originals/ff/51/69/ff51696c14e4d87deef568161c0b5a80.png')  
+    no-repeat center center fixed;
+    background-size: cover;
+}
